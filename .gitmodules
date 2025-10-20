@@ -1,0 +1,3 @@
+[submodule "neo-project"]
+	path = neo-project
+	url = https://github.com/FabioCLima/neo-project.git
