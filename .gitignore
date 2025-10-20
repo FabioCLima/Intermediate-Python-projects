@@ -27,6 +27,9 @@ saved_result_data/
 *.json
 uv.lock
 
+# Exclude other Udacity project starters
+cd0010-advanced-python-techniques-project-starter/
+
 # Keep LICENSE and README.md
 !LICENSE
 !README.md

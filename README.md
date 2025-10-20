@@ -25,9 +25,6 @@ Projeto principal de análise de dados de Near-Earth Objects (NEOs).
 **Documentação:**
 - `docs/` - Documentação do projeto
 
-### CD0010 Advanced Python Techniques Project Starter
-Projeto starter para técnicas avançadas de Python.
-
 ## Configuração
 
 - Python 3.13
