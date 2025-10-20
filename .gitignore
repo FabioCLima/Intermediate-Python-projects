@@ -10,6 +10,7 @@ wheels/
 .venv/
 venv/
 env/
+.env
 
 # IDE files
 .vscode/
@@ -27,8 +28,14 @@ saved_result_data/
 *.json
 uv.lock
 
+# Exclude documentation directories
+docs/
+
 # Exclude other Udacity project starters
 cd0010-advanced-python-techniques-project-starter/
+
+# Prevent subrepositories
+neo-project/
 
 # Keep LICENSE and README.md
 !LICENSE

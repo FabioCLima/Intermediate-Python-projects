@@ -22,9 +22,6 @@ Projeto principal de análise de dados de Near-Earth Objects (NEOs).
 **Testes:**
 - `tests/` - Conjunto completo de testes unitários
 
-**Documentação:**
-- `docs/` - Documentação do projeto
-
 ## Configuração
 
 - Python 3.13
