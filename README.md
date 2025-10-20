@@ -1,38 +1,34 @@
-# Intermediate Python Projects - Neo Project
+# Intermediate Python Projects
 
-Este repositório contém o projeto de análise de dados de Near-Earth Objects (NEOs) desenvolvido para o curso Intermediate Python da Udacity.
+Este repositório contém todos os projetos relacionados ao curso Intermediate Python da Udacity.
 
-## Sobre o Projeto
+## Estrutura do Projeto
 
-O Neo Project analisa dados de Near-Earth Objects (NEOs) usando técnicas avançadas de Python, incluindo:
+### Neo Project (Submódulo)
+Projeto principal de análise de dados de Near-Earth Objects (NEOs) organizado como um submódulo Git.
 
-- Análise de dados com pandas
-- Operações de banco de dados
-- Filtros e consultas avançadas
-- Testes unitários abrangentes
-- Documentação completa
+**Localização:** `neo-project/`
 
-## Arquivos principais
+**Para trabalhar com o neo-project:**
+```bash
+# Clonar o repositório com submódulos
+git clone --recursive https://github.com/FabioCLima/Intermediate-Python-projects.git
 
-- `main.py` - Script principal de execução
-- `database.py` - Operações de banco de dados
-- `extract.py` - Extração de dados
-- `filters.py` - Filtros de dados
-- `models.py` - Modelos de dados
-- `write.py` - Escrita de resultados
-- `helpers.py` - Funções auxiliares
+# Ou se já clonou, inicializar submódulos
+git submodule update --init --recursive
 
-## Dados
+# Entrar no diretório do neo-project
+cd neo-project
 
-- `data/neos.csv` - Dataset principal de NEOs
+# Ativar ambiente virtual
+source .venv/bin/activate
 
-## Testes
+# Executar testes
+python -m pytest tests/
 
-- `tests/` - Conjunto completo de testes unitários
-
-## Documentação
-
-- `docs/` - Documentação detalhada do projeto
+# Executar o projeto
+python main.py
+```
 
 ## Configuração
 
@@ -42,26 +38,12 @@ O Neo Project analisa dados de Near-Earth Objects (NEOs) usando técnicas avanç
 
 ## Como usar
 
-1. Clone o repositório
-2. Ative o ambiente virtual: `source .venv/bin/activate`
-3. Execute os testes: `python -m pytest tests/`
-4. Execute o projeto principal: `python main.py`
-
-## Estrutura do Projeto
-
-```
-├── main.py              # Script principal
-├── database.py          # Operações de banco
-├── extract.py           # Extração de dados
-├── filters.py           # Filtros de dados
-├── models.py            # Modelos de dados
-├── write.py             # Escrita de resultados
-├── helpers.py           # Funções auxiliares
-├── data/                # Dados do projeto
-├── tests/               # Testes unitários
-├── docs/                # Documentação
-└── pyproject.toml       # Configuração do projeto
-```
+1. Clone o repositório com submódulos: `git clone --recursive <url>`
+2. Para trabalhar com o neo-project:
+   - `cd neo-project`
+   - `source .venv/bin/activate`
+   - Execute os testes: `python -m pytest tests/`
+   - Execute o projeto: `python main.py`
 
 ## Licença
 
