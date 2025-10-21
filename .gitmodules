@@ -1,3 +1,6 @@
 [submodule "neo-project"]
 	path = neo-project
 	url = https://github.com/FabioCLima/neo-project.git
+[submodule "motivacional-meme-generator-project"]
+	path = motivacional-meme-generator-project
+	url = https://github.com/FabioCLima/motivacional-meme-generator-project.git
